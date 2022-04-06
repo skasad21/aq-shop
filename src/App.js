@@ -1,7 +1,15 @@
+import React from "react";
 import "./App.css";
 
+// My Component
+import HomePage from "./components/homepage.component";
+
 function App() {
-  return <div>Hello AQ-SHOP</div>;
+  return (
+    <div>
+      <HomePage />
+    </div>
+  );
 }
 
 export default App;
