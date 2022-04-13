@@ -5,14 +5,7 @@ import "./App.css";
 
 // My Component
 import HomePage from "./pages/homepage/homepage.component";
-
-const HatsPage = () => {
-  return (
-    <div>
-      <h1>HATS PAGE</h1>
-    </div>
-  );
-};
+import ShopPage from "./pages/shop/shop.component";
 
 // App
 function App() {
@@ -20,7 +13,7 @@ function App() {
     <div>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/hats" element={<HatsPage />} />
+        <Route path="/shop" element={<ShopPage />} />
       </Routes>
     </div>
   );
